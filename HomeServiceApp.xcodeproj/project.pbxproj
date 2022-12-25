@@ -14,6 +14,66 @@
 		98B8EA3B2953AF35001B23C2 /* HomeServiceAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA3A2953AF35001B23C2 /* HomeServiceAppTests.swift */; };
 		98B8EA452953AF35001B23C2 /* HomeServiceAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA442953AF35001B23C2 /* HomeServiceAppUITests.swift */; };
 		98B8EA472953AF35001B23C2 /* HomeServiceAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA462953AF35001B23C2 /* HomeServiceAppUITestsLaunchTests.swift */; };
+		98B8EA612953B2E2001B23C2 /* NameOfUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA602953B2E2001B23C2 /* NameOfUnit.swift */; };
+		98B8EA622953B2E2001B23C2 /* NameOfUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA602953B2E2001B23C2 /* NameOfUnit.swift */; };
+		98B8EA632953B2E2001B23C2 /* NameOfUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA602953B2E2001B23C2 /* NameOfUnit.swift */; };
+		98B8EA652953B3CB001B23C2 /* 6monthor3month.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA642953B3CB001B23C2 /* 6monthor3month.swift */; };
+		98B8EA662953B3CB001B23C2 /* 6monthor3month.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA642953B3CB001B23C2 /* 6monthor3month.swift */; };
+		98B8EA672953B3CB001B23C2 /* 6monthor3month.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA642953B3CB001B23C2 /* 6monthor3month.swift */; };
+		98B8EA692953BF72001B23C2 /* LastFilterChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA682953BF72001B23C2 /* LastFilterChange.swift */; };
+		98B8EA6A2953BF72001B23C2 /* LastFilterChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA682953BF72001B23C2 /* LastFilterChange.swift */; };
+		98B8EA6B2953BF72001B23C2 /* LastFilterChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA682953BF72001B23C2 /* LastFilterChange.swift */; };
+		98B8EA6D2953C35D001B23C2 /* LicensedHVACinfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA6C2953C35D001B23C2 /* LicensedHVACinfo.swift */; };
+		98B8EA6E2953C35D001B23C2 /* LicensedHVACinfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA6C2953C35D001B23C2 /* LicensedHVACinfo.swift */; };
+		98B8EA6F2953C35D001B23C2 /* LicensedHVACinfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA6C2953C35D001B23C2 /* LicensedHVACinfo.swift */; };
+		98B8EA712953CA3F001B23C2 /* ModelNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA702953CA3F001B23C2 /* ModelNumber.swift */; };
+		98B8EA722953CA3F001B23C2 /* ModelNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA702953CA3F001B23C2 /* ModelNumber.swift */; };
+		98B8EA732953CA3F001B23C2 /* ModelNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA702953CA3F001B23C2 /* ModelNumber.swift */; };
+		98B8EA752953E0E2001B23C2 /* savehvacbutton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA742953E0E2001B23C2 /* savehvacbutton.swift */; };
+		98B8EA762953E0E2001B23C2 /* savehvacbutton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA742953E0E2001B23C2 /* savehvacbutton.swift */; };
+		98B8EA772953E0E2001B23C2 /* savehvacbutton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA742953E0E2001B23C2 /* savehvacbutton.swift */; };
+		98B8EA792953E2B6001B23C2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA782953E2B6001B23C2 /* Constants.swift */; };
+		98B8EA7A2953E2B6001B23C2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA782953E2B6001B23C2 /* Constants.swift */; };
+		98B8EA7B2953E2B6001B23C2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA782953E2B6001B23C2 /* Constants.swift */; };
+		98B8EA7D2953FB32001B23C2 /* SerialNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA7C2953FB32001B23C2 /* SerialNumber.swift */; };
+		98B8EA7E2953FB32001B23C2 /* SerialNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA7C2953FB32001B23C2 /* SerialNumber.swift */; };
+		98B8EA7F2953FB32001B23C2 /* SerialNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA7C2953FB32001B23C2 /* SerialNumber.swift */; };
+		98B8EA812953FBD7001B23C2 /* SizeOfFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA802953FBD7001B23C2 /* SizeOfFilter.swift */; };
+		98B8EA822953FBD7001B23C2 /* SizeOfFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA802953FBD7001B23C2 /* SizeOfFilter.swift */; };
+		98B8EA832953FBD7001B23C2 /* SizeOfFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA802953FBD7001B23C2 /* SizeOfFilter.swift */; };
+		98B8EA852953FE91001B23C2 /* YearOfUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA842953FE91001B23C2 /* YearOfUnit.swift */; };
+		98B8EA862953FE91001B23C2 /* YearOfUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA842953FE91001B23C2 /* YearOfUnit.swift */; };
+		98B8EA872953FE91001B23C2 /* YearOfUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA842953FE91001B23C2 /* YearOfUnit.swift */; };
+		98B8EA892953FF75001B23C2 /* DryingMachineinstalled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA882953FF75001B23C2 /* DryingMachineinstalled.swift */; };
+		98B8EA8A2953FF75001B23C2 /* DryingMachineinstalled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA882953FF75001B23C2 /* DryingMachineinstalled.swift */; };
+		98B8EA8B2953FF75001B23C2 /* DryingMachineinstalled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA882953FF75001B23C2 /* DryingMachineinstalled.swift */; };
+		98B8EA8D2953FFF8001B23C2 /* DateinstalledKitchen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA8C2953FFF8001B23C2 /* DateinstalledKitchen.swift */; };
+		98B8EA8E2953FFF8001B23C2 /* DateinstalledKitchen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA8C2953FFF8001B23C2 /* DateinstalledKitchen.swift */; };
+		98B8EA8F2953FFF8001B23C2 /* DateinstalledKitchen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA8C2953FFF8001B23C2 /* DateinstalledKitchen.swift */; };
+		98B8EA9129540175001B23C2 /* GasUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA9029540175001B23C2 /* GasUnit.swift */; };
+		98B8EA9229540175001B23C2 /* GasUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA9029540175001B23C2 /* GasUnit.swift */; };
+		98B8EA9329540175001B23C2 /* GasUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA9029540175001B23C2 /* GasUnit.swift */; };
+		98B8EA9529540358001B23C2 /* ElectricUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA9429540358001B23C2 /* ElectricUnit.swift */; };
+		98B8EA9629540358001B23C2 /* ElectricUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA9429540358001B23C2 /* ElectricUnit.swift */; };
+		98B8EA9729540358001B23C2 /* ElectricUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA9429540358001B23C2 /* ElectricUnit.swift */; };
+		98B8EA99295403E0001B23C2 /* GasOrElectricbutton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA98295403E0001B23C2 /* GasOrElectricbutton.swift */; };
+		98B8EA9A295403E0001B23C2 /* GasOrElectricbutton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA98295403E0001B23C2 /* GasOrElectricbutton.swift */; };
+		98B8EA9B295403E0001B23C2 /* GasOrElectricbutton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA98295403E0001B23C2 /* GasOrElectricbutton.swift */; };
+		98B8EA9D29540D5B001B23C2 /* HVACPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA9C29540D5B001B23C2 /* HVACPage.swift */; };
+		98B8EA9E29540D5B001B23C2 /* HVACPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA9C29540D5B001B23C2 /* HVACPage.swift */; };
+		98B8EA9F29540D5B001B23C2 /* HVACPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EA9C29540D5B001B23C2 /* HVACPage.swift */; };
+		98B8EAA12955363F001B23C2 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EAA02955363F001B23C2 /* HomePage.swift */; };
+		98B8EAA22955363F001B23C2 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EAA02955363F001B23C2 /* HomePage.swift */; };
+		98B8EAA32955363F001B23C2 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EAA02955363F001B23C2 /* HomePage.swift */; };
+		98B8EAA729553C5B001B23C2 /* TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EAA629553C5B001B23C2 /* TimerModel.swift */; };
+		98B8EAA829553C5B001B23C2 /* TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EAA629553C5B001B23C2 /* TimerModel.swift */; };
+		98B8EAA929553C5B001B23C2 /* TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EAA629553C5B001B23C2 /* TimerModel.swift */; };
+		98B8EAAC29553E95001B23C2 /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EAAB29553E95001B23C2 /* TimerViewModel.swift */; };
+		98B8EAAD29553E95001B23C2 /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EAAB29553E95001B23C2 /* TimerViewModel.swift */; };
+		98B8EAAE29553E95001B23C2 /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EAAB29553E95001B23C2 /* TimerViewModel.swift */; };
+		98B8EAB0295540A4001B23C2 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EAAF295540A4001B23C2 /* TimerView.swift */; };
+		98B8EAB1295540A4001B23C2 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EAAF295540A4001B23C2 /* TimerView.swift */; };
+		98B8EAB2295540A4001B23C2 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8EAAF295540A4001B23C2 /* TimerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +104,26 @@
 		98B8EA402953AF35001B23C2 /* HomeServiceAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeServiceAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98B8EA442953AF35001B23C2 /* HomeServiceAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeServiceAppUITests.swift; sourceTree = "<group>"; };
 		98B8EA462953AF35001B23C2 /* HomeServiceAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeServiceAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		98B8EA602953B2E2001B23C2 /* NameOfUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameOfUnit.swift; sourceTree = "<group>"; };
+		98B8EA642953B3CB001B23C2 /* 6monthor3month.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 6monthor3month.swift; sourceTree = "<group>"; };
+		98B8EA682953BF72001B23C2 /* LastFilterChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastFilterChange.swift; sourceTree = "<group>"; };
+		98B8EA6C2953C35D001B23C2 /* LicensedHVACinfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicensedHVACinfo.swift; sourceTree = "<group>"; };
+		98B8EA702953CA3F001B23C2 /* ModelNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelNumber.swift; sourceTree = "<group>"; };
+		98B8EA742953E0E2001B23C2 /* savehvacbutton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = savehvacbutton.swift; sourceTree = "<group>"; };
+		98B8EA782953E2B6001B23C2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		98B8EA7C2953FB32001B23C2 /* SerialNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerialNumber.swift; sourceTree = "<group>"; };
+		98B8EA802953FBD7001B23C2 /* SizeOfFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeOfFilter.swift; sourceTree = "<group>"; };
+		98B8EA842953FE91001B23C2 /* YearOfUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearOfUnit.swift; sourceTree = "<group>"; };
+		98B8EA882953FF75001B23C2 /* DryingMachineinstalled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DryingMachineinstalled.swift; sourceTree = "<group>"; };
+		98B8EA8C2953FFF8001B23C2 /* DateinstalledKitchen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateinstalledKitchen.swift; sourceTree = "<group>"; };
+		98B8EA9029540175001B23C2 /* GasUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasUnit.swift; sourceTree = "<group>"; };
+		98B8EA9429540358001B23C2 /* ElectricUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectricUnit.swift; sourceTree = "<group>"; };
+		98B8EA98295403E0001B23C2 /* GasOrElectricbutton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasOrElectricbutton.swift; sourceTree = "<group>"; };
+		98B8EA9C29540D5B001B23C2 /* HVACPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HVACPage.swift; sourceTree = "<group>"; };
+		98B8EAA02955363F001B23C2 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		98B8EAA629553C5B001B23C2 /* TimerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerModel.swift; sourceTree = "<group>"; };
+		98B8EAAB29553E95001B23C2 /* TimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewModel.swift; sourceTree = "<group>"; };
+		98B8EAAF295540A4001B23C2 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +154,11 @@
 		98B8EA1D2953AF32001B23C2 = {
 			isa = PBXGroup;
 			children = (
+				98B8EAAA29553C66001B23C2 /* Models */,
+				98B8EAA4295538C5001B23C2 /* ViewModel */,
+				98B8EA5D2953B298001B23C2 /* Views */,
+				98B8EA292953AF32001B23C2 /* HomeServiceAppApp.swift */,
+				98B8EA2B2953AF32001B23C2 /* ContentView.swift */,
 				98B8EA282953AF32001B23C2 /* HomeServiceApp */,
 				98B8EA392953AF35001B23C2 /* HomeServiceAppTests */,
 				98B8EA432953AF35001B23C2 /* HomeServiceAppUITests */,
@@ -94,8 +179,6 @@
 		98B8EA282953AF32001B23C2 /* HomeServiceApp */ = {
 			isa = PBXGroup;
 			children = (
-				98B8EA292953AF32001B23C2 /* HomeServiceAppApp.swift */,
-				98B8EA2B2953AF32001B23C2 /* ContentView.swift */,
 				98B8EA2D2953AF34001B23C2 /* Assets.xcassets */,
 				98B8EA2F2953AF34001B23C2 /* Preview Content */,
 			);
@@ -125,6 +208,63 @@
 				98B8EA462953AF35001B23C2 /* HomeServiceAppUITestsLaunchTests.swift */,
 			);
 			path = HomeServiceAppUITests;
+			sourceTree = "<group>";
+		};
+		98B8EA5D2953B298001B23C2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				98B8EA5F2953B2CC001B23C2 /* Components */,
+				98B8EA5E2953B2B9001B23C2 /* Pagesp */,
+				98B8EA782953E2B6001B23C2 /* Constants.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		98B8EA5E2953B2B9001B23C2 /* Pagesp */ = {
+			isa = PBXGroup;
+			children = (
+				98B8EA9C29540D5B001B23C2 /* HVACPage.swift */,
+				98B8EAA02955363F001B23C2 /* HomePage.swift */,
+			);
+			path = Pagesp;
+			sourceTree = "<group>";
+		};
+		98B8EA5F2953B2CC001B23C2 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				98B8EA602953B2E2001B23C2 /* NameOfUnit.swift */,
+				98B8EA642953B3CB001B23C2 /* 6monthor3month.swift */,
+				98B8EA682953BF72001B23C2 /* LastFilterChange.swift */,
+				98B8EA6C2953C35D001B23C2 /* LicensedHVACinfo.swift */,
+				98B8EA702953CA3F001B23C2 /* ModelNumber.swift */,
+				98B8EA7C2953FB32001B23C2 /* SerialNumber.swift */,
+				98B8EA742953E0E2001B23C2 /* savehvacbutton.swift */,
+				98B8EA802953FBD7001B23C2 /* SizeOfFilter.swift */,
+				98B8EA842953FE91001B23C2 /* YearOfUnit.swift */,
+				98B8EA882953FF75001B23C2 /* DryingMachineinstalled.swift */,
+				98B8EA8C2953FFF8001B23C2 /* DateinstalledKitchen.swift */,
+				98B8EA9029540175001B23C2 /* GasUnit.swift */,
+				98B8EA9429540358001B23C2 /* ElectricUnit.swift */,
+				98B8EA98295403E0001B23C2 /* GasOrElectricbutton.swift */,
+				98B8EAAF295540A4001B23C2 /* TimerView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		98B8EAA4295538C5001B23C2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				98B8EAAB29553E95001B23C2 /* TimerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		98B8EAAA29553C66001B23C2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				98B8EAA629553C5B001B23C2 /* TimerModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +397,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98B8EA6D2953C35D001B23C2 /* LicensedHVACinfo.swift in Sources */,
+				98B8EA99295403E0001B23C2 /* GasOrElectricbutton.swift in Sources */,
+				98B8EA812953FBD7001B23C2 /* SizeOfFilter.swift in Sources */,
+				98B8EA692953BF72001B23C2 /* LastFilterChange.swift in Sources */,
 				98B8EA2C2953AF32001B23C2 /* ContentView.swift in Sources */,
+				98B8EA652953B3CB001B23C2 /* 6monthor3month.swift in Sources */,
+				98B8EAB0295540A4001B23C2 /* TimerView.swift in Sources */,
+				98B8EA852953FE91001B23C2 /* YearOfUnit.swift in Sources */,
+				98B8EAAC29553E95001B23C2 /* TimerViewModel.swift in Sources */,
+				98B8EA752953E0E2001B23C2 /* savehvacbutton.swift in Sources */,
+				98B8EAA12955363F001B23C2 /* HomePage.swift in Sources */,
+				98B8EA612953B2E2001B23C2 /* NameOfUnit.swift in Sources */,
+				98B8EA9529540358001B23C2 /* ElectricUnit.swift in Sources */,
 				98B8EA2A2953AF32001B23C2 /* HomeServiceAppApp.swift in Sources */,
+				98B8EA712953CA3F001B23C2 /* ModelNumber.swift in Sources */,
+				98B8EA9129540175001B23C2 /* GasUnit.swift in Sources */,
+				98B8EA7D2953FB32001B23C2 /* SerialNumber.swift in Sources */,
+				98B8EA8D2953FFF8001B23C2 /* DateinstalledKitchen.swift in Sources */,
+				98B8EA792953E2B6001B23C2 /* Constants.swift in Sources */,
+				98B8EA9D29540D5B001B23C2 /* HVACPage.swift in Sources */,
+				98B8EA892953FF75001B23C2 /* DryingMachineinstalled.swift in Sources */,
+				98B8EAA729553C5B001B23C2 /* TimerModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +426,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98B8EAB1295540A4001B23C2 /* TimerView.swift in Sources */,
+				98B8EAAD29553E95001B23C2 /* TimerViewModel.swift in Sources */,
+				98B8EA722953CA3F001B23C2 /* ModelNumber.swift in Sources */,
+				98B8EAA22955363F001B23C2 /* HomePage.swift in Sources */,
 				98B8EA3B2953AF35001B23C2 /* HomeServiceAppTests.swift in Sources */,
+				98B8EA6E2953C35D001B23C2 /* LicensedHVACinfo.swift in Sources */,
+				98B8EA9E29540D5B001B23C2 /* HVACPage.swift in Sources */,
+				98B8EA762953E0E2001B23C2 /* savehvacbutton.swift in Sources */,
+				98B8EA862953FE91001B23C2 /* YearOfUnit.swift in Sources */,
+				98B8EA8A2953FF75001B23C2 /* DryingMachineinstalled.swift in Sources */,
+				98B8EA6A2953BF72001B23C2 /* LastFilterChange.swift in Sources */,
+				98B8EA9A295403E0001B23C2 /* GasOrElectricbutton.swift in Sources */,
+				98B8EA8E2953FFF8001B23C2 /* DateinstalledKitchen.swift in Sources */,
+				98B8EA662953B3CB001B23C2 /* 6monthor3month.swift in Sources */,
+				98B8EA9229540175001B23C2 /* GasUnit.swift in Sources */,
+				98B8EA622953B2E2001B23C2 /* NameOfUnit.swift in Sources */,
+				98B8EA9629540358001B23C2 /* ElectricUnit.swift in Sources */,
+				98B8EAA829553C5B001B23C2 /* TimerModel.swift in Sources */,
+				98B8EA822953FBD7001B23C2 /* SizeOfFilter.swift in Sources */,
+				98B8EA7A2953E2B6001B23C2 /* Constants.swift in Sources */,
+				98B8EA7E2953FB32001B23C2 /* SerialNumber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +454,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98B8EA6F2953C35D001B23C2 /* LicensedHVACinfo.swift in Sources */,
+				98B8EA9B295403E0001B23C2 /* GasOrElectricbutton.swift in Sources */,
+				98B8EA832953FBD7001B23C2 /* SizeOfFilter.swift in Sources */,
+				98B8EA6B2953BF72001B23C2 /* LastFilterChange.swift in Sources */,
 				98B8EA452953AF35001B23C2 /* HomeServiceAppUITests.swift in Sources */,
+				98B8EA672953B3CB001B23C2 /* 6monthor3month.swift in Sources */,
+				98B8EAB2295540A4001B23C2 /* TimerView.swift in Sources */,
+				98B8EA872953FE91001B23C2 /* YearOfUnit.swift in Sources */,
+				98B8EAAE29553E95001B23C2 /* TimerViewModel.swift in Sources */,
+				98B8EA772953E0E2001B23C2 /* savehvacbutton.swift in Sources */,
+				98B8EAA32955363F001B23C2 /* HomePage.swift in Sources */,
+				98B8EA632953B2E2001B23C2 /* NameOfUnit.swift in Sources */,
+				98B8EA9729540358001B23C2 /* ElectricUnit.swift in Sources */,
 				98B8EA472953AF35001B23C2 /* HomeServiceAppUITestsLaunchTests.swift in Sources */,
+				98B8EA732953CA3F001B23C2 /* ModelNumber.swift in Sources */,
+				98B8EA9329540175001B23C2 /* GasUnit.swift in Sources */,
+				98B8EA7F2953FB32001B23C2 /* SerialNumber.swift in Sources */,
+				98B8EA8F2953FFF8001B23C2 /* DateinstalledKitchen.swift in Sources */,
+				98B8EA7B2953E2B6001B23C2 /* Constants.swift in Sources */,
+				98B8EA9F29540D5B001B23C2 /* HVACPage.swift in Sources */,
+				98B8EA8B2953FF75001B23C2 /* DryingMachineinstalled.swift in Sources */,
+				98B8EAA929553C5B001B23C2 /* TimerModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,7 +617,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HomeServiceApp/Preview Content\"";
-				DEVELOPMENT_TEAM = 8QHSLQU2WK;
+				DEVELOPMENT_TEAM = 4M944BLQT7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -446,7 +646,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HomeServiceApp/Preview Content\"";
-				DEVELOPMENT_TEAM = 8QHSLQU2WK;
+				DEVELOPMENT_TEAM = 4M944BLQT7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

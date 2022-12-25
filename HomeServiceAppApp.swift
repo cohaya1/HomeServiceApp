@@ -11,7 +11,7 @@ import SwiftUI
 struct HomeServiceAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TimerView(viewModel: TimerViewModel(model: TimerModel(timeRemaining: 86400, isRunning: false)))
         }
     }
 }

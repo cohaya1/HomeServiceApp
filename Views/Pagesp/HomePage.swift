@@ -9,6 +9,105 @@ import SwiftUI
 
 struct HomePage: View {
     @State private var isPresentingFullScreenCover = false
+    @Binding var nameofunit: String
+    @Binding var modelNumber: String
+    @Binding var serialNumber: String
+    fileprivate func UpcomingLabel() -> some View {
+        return Text("UPCOMING")
+            .fontWeight(.medium)
+            .font(.callout)
+            .multilineTextAlignment(.center)
+            .frame(width: 116.50, height: 16, alignment: .top)
+            .padding(.bottom, 4)
+            .frame(width: 116.50, height: 20)
+            .fontWeight(.bold)
+            .font(.callout)
+            .foregroundColor(.white)
+    }
+    
+    fileprivate func UpcomingAmount() -> Text {
+        return Text("7")
+            .fontWeight(.bold)
+            .font(.largeTitle)
+            .fontWeight(.bold)
+            .font(.callout)
+            .foregroundColor(.white)
+    }
+    
+    fileprivate func OverdueText() -> some View {
+        return Text("OVERDUE")
+            .fontWeight(.medium)
+            .font(.callout)
+            .multilineTextAlignment(.center)
+            .frame(width: 116.50, height: 16, alignment: .top)
+            .padding(.vertical, 2)
+            .frame(width: 116.50, height: 20)
+            .cornerRadius(4)
+            .foregroundColor(.white)
+    }
+    
+    fileprivate func OverdueAmount() -> Text {
+        return Text("18")
+            .fontWeight(.bold)
+            .font(.largeTitle)
+            .foregroundColor(.white)
+    }
+    
+    fileprivate func InprogressLabe() -> some View {
+        return Text("INPROGRESS")
+            .fontWeight(.medium)
+            .font(.callout)
+            .multilineTextAlignment(.center)
+            .frame(width: 116.50, height: 16, alignment: .top)
+            .padding(.bottom, 4)
+            .frame(width: 116.50, height: 20)
+    }
+    
+    fileprivate func Inprogress() -> Text {
+        return Text("2")
+            .fontWeight(.bold)
+            .font(.largeTitle)
+    }
+    
+    fileprivate func OverdueStatus() -> some View {
+        return Text("OVERDUE")
+            .fontWeight(.medium)
+            .font(.subheadline)
+            .multilineTextAlignment(.trailing)
+            .frame(width: 110, alignment: .topTrailing)
+            .frame(width: 110, height: 18)
+    }
+    
+    fileprivate func Alltab() -> some View {
+        return Text("All")
+            .font(.callout)
+            .padding(.vertical, 8)
+            .padding(.leading, 20)
+            .padding(.trailing, 22)
+            .background(Color(red: 0.93, green: 0.92, blue: 0.95))
+            .cornerRadius(8)
+    }
+    
+    fileprivate func UpcomingTab() -> some View {
+        return Text("Upcoming")
+            .font(.callout)
+            .opacity(0.30)
+            .padding(.horizontal, 21)
+            .padding(.vertical, 8)
+            .background(Color(red: 0.93, green: 0.92, blue: 0.95))
+            .cornerRadius(8)
+    }
+    
+    fileprivate func OverdueTabs() -> some View {
+        return Text("Overdue")
+            .font(.callout)
+            .opacity(0.30)
+            .padding(.horizontal, 21)
+            .padding(.vertical, 8)
+            .background(Color(red: 0.93, green: 0.92, blue: 0.95))
+            .cornerRadius(8)
+    }
+    
     var body: some View {
         
         VStack(spacing: 40) {
@@ -23,22 +122,9 @@ struct HomePage: View {
             VStack(spacing: 40) {
                 HStack(spacing: 0) {
                     VStack(spacing: 19) {
-                        Text("UPCOMING")
-                            .fontWeight(.medium)
-                            .font(.callout)
-                            .multilineTextAlignment(.center)
-                            .frame(width: 116.50, height: 16, alignment: .top)
-                            .padding(.bottom, 4)
-                            .frame(width: 116.50, height: 20)
-                            .fontWeight(.bold)
-                            .font(.callout)
-                            .foregroundColor(.white)
-                        Text("7")
-                            .fontWeight(.bold)
-                            .font(.largeTitle)
-                            .fontWeight(.bold)
-                            .font(.callout)
-                            .foregroundColor(.white)
+                        UpcomingLabel()
+                        
+                        UpcomingAmount()
                     }
                     
                     Rectangle().rotationEffect(.degrees(1))
@@ -48,20 +134,9 @@ struct HomePage: View {
                         
                     
                     VStack(spacing: 19) {
-                        Text("OVERDUE")
-                            .fontWeight(.medium)
-                            .font(.callout)
-                            .multilineTextAlignment(.center)
-                            .frame(width: 116.50, height: 16, alignment: .top)
-                            .padding(.vertical, 2)
-                            .frame(width: 116.50, height: 20)
-                            .cornerRadius(4)
-                            .foregroundColor(.white)
+                        OverdueText()
                         
-                        Text("18")
-                            .fontWeight(.bold)
-                            .font(.largeTitle)
-                            .foregroundColor(.white)
+                        OverdueAmount()
                     }
                     
                     Rectangle().rotationEffect(.degrees(1))
@@ -70,17 +145,9 @@ struct HomePage: View {
                         .font(.callout)
                        
                     VStack(spacing: 19) {
-                        Text("OVERDUE")
-                            .fontWeight(.medium)
-                            .font(.callout)
-                            .multilineTextAlignment(.center)
-                            .frame(width: 116.50, height: 16, alignment: .top)
-                            .padding(.bottom, 4)
-                            .frame(width: 116.50, height: 20)
+                        InprogressLabe()
                         
-                        Text("2")
-                            .fontWeight(.bold)
-                            .font(.largeTitle)
+                        Inprogress()
                     }
                 }
                 .padding(16)
@@ -89,29 +156,11 @@ struct HomePage: View {
                 
                 VStack(spacing: 24) {
                     HStack(alignment: .top, spacing: 8) {
-                        Text("All")
-                            .font(.callout)
-                            .padding(.vertical, 8)
-                            .padding(.leading, 20)
-                            .padding(.trailing, 22)
-                            .background(Color(red: 0.93, green: 0.92, blue: 0.95))
-                            .cornerRadius(8)
+                        Alltab()
                         
-                        Text("Upcoming")
-                            .font(.callout)
-                            .opacity(0.30)
-                            .padding(.horizontal, 21)
-                            .padding(.vertical, 8)
-                            .background(Color(red: 0.93, green: 0.92, blue: 0.95))
-                            .cornerRadius(8)
+                        UpcomingTab()
                         
-                        Text("Overdue")
-                            .font(.callout)
-                            .opacity(0.30)
-                            .padding(.horizontal, 21)
-                            .padding(.vertical, 8)
-                            .background(Color(red: 0.93, green: 0.92, blue: 0.95))
-                            .cornerRadius(8)
+                        OverdueTabs()
                         
                         
                     }
@@ -126,19 +175,14 @@ struct HomePage: View {
                                                 .fill(Color(red: 0.50, green: 0.23, blue: 0.27, opacity: 0.50))
                                                 .frame(width: 24, height: 24)
                                             
-                                            Text("HVAC")
+                                            Text(nameofunit)
                                                 .fontWeight(.bold)
                                                 .font(.subheadline)
                                         }
                                         .frame(maxWidth: .infinity)
                                         .padding(.trailing,165)
                                         
-                                        Text("OVERDUE")
-                                            .fontWeight(.medium)
-                                            .font(.subheadline)
-                                            .multilineTextAlignment(.trailing)
-                                            .frame(width: 110, alignment: .topTrailing)
-                                            .frame(width: 110, height: 18)
+                                        OverdueStatus()
                                     }
                                     .frame(maxWidth: .infinity)
                                     
@@ -374,6 +418,7 @@ struct HomePage: View {
 
 struct HomePage_Previews: PreviewProvider {
     static var previews: some View {
-        HomePage()
+        HomePage(nameofunit: .constant(""),modelNumber: .constant(""),serialNumber: .constant(""))
+            .previewLayout(.fixed(width: 300, height: 200))
     }
 }

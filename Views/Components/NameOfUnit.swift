@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct NameOfUnit: View {
-    @State private var nameofunit = ""
+    @State  var nameofunit = " "
     var body: some View {
         TextField("Name Of Unit", text: $nameofunit)
                       .fontWeight(.light)
